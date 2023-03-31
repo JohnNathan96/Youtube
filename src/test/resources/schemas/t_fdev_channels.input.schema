@@ -1,0 +1,48 @@
+{
+  "namespace": "kdit",
+  "name": "t_fdev_channels",
+  "doc": "tabla de canales de youtube",
+  "database": "master",
+  "storageZone": "MASTERDATA",
+  "storageType": "HDFS-Parquet",
+  "physicalPath": "/data/master/kdit/data/t_kdit_nat_channels",
+  "securityLevel": "L1",
+  "type": "record",
+  "fields": [{
+    "name": "video_id",
+    "type": ["string","null"],
+    "logicalFormat": "ALPHANUMERIC(64)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "channel_title",
+    "type": ["string","null"],
+    "logicalFormat": "ALPHANUMERIC(64)",
+    "deleted": false,
+    "metadata": false,
+    "default": 0
+  }, {
+    "name": "title",
+    "type": ["string","null"],
+    "logicalFormat": "ALPHANUMERIC(64)",
+    "deleted": false,
+    "metadata": false,
+    "default": 0
+  }, {
+    "name": "publish_time",
+    "type": ["string","null"],
+    "logicalFormat": "ALPHANUMERIC(64)",
+    "deleted": false,
+    "metadata": false,
+    "default": 0
+  },{
+    "name": "tags",
+    "type": ["string","null"],
+    "logicalFormat": "ALPHANUMERIC(64)",
+    "deleted": false,
+    "metadata": false,
+    "default": 0
+  }
+  ]
+}
